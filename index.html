@@ -4,9 +4,11 @@
 <head>
   <title>Home</title>
 
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
-<body>
+<body class="background-color-lighgreen">
   <header>
 
     <nav>
@@ -21,7 +23,7 @@
 
     <main>
       <p> This site will help you know the types of birds so you can have much information</p>
-      
+
       <h1>Birds Types</h1>
       <h2>Waterfowl Birds</h2>
       <div class="waterfowl birds">
@@ -30,6 +32,14 @@
         </a>
         <h2>Seriemas Birds</h2>
         <img src="https://www.birdsoutsidemywindow.org/wp-content/uploads/2015/05/SERE_whipsnadezoo_rsz_wiki.jpg">
+        <a
+          href="https://www.bioexplorer.net/animals/birds/#:~:text=Types%20of%20Birds%201%20Diurnal%20Birds%20of%20Prey,Vultures%20%28Ciconiiformes%29%2010%20Mousebirds%20%28Coliiformes%29%20More%20items...%20">
+
+
+          Birds Types
+
+        </a>
+
 
       </div>
       <script>
@@ -44,7 +54,38 @@
         ) {
           alert(number);
         } else {
-          alert ("The number is less than 20")
+          alert("The number is less than 20")
+
+
+        }
+
+        var languages = prompt("Please Enter Language");
+        var English = "English is Activated";
+        var Arabic = " Arabic is Activated";
+        var booleanVariableOfTypeTrue = true;
+
+        function language(languages) {
+
+          if (languages == "English") {
+
+            alert(English);
+
+          } else if (languages == "Arabic") {
+            alert(Arabic);
+          }
+
+
+        }
+        if (true) {
+          alert("Welcome");
+
+        }
+
+
+        for ( var i=0; i < 10 ; i++ ) {
+
+          console.log(i);
+
 
 
         }
