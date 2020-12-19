@@ -5,12 +5,16 @@ h1 {
 
 h2 {
 
-color blue;
+color: blue;
 
 }
 
-.background-color-lighgreen {
+.background-color-lightblue {
 
 
-    background-color: lightgreen
+    background-color: lightblue
+}
+
+h3 { 
+    color: blue
 }
